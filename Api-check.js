@@ -9,7 +9,7 @@ const loadData = () => {
 const displayData = (data) => {
    const photoContainer = document.getElementById('display-container');
 
-   data = data.slice(0, 5);
+   data = data.slice(0, 5)
    data.forEach((item) => {
       const card = document.createElement('div');
       card.classList.add('col');
@@ -43,5 +43,6 @@ const displayImageDetails = (data) => {
       </div>
    `
 }
+
 
 loadData();
